@@ -3,6 +3,8 @@
 A full-stack Employee Management System built using **React**, **Node.js**, **Express**, and **MongoDB**.  
 Designed as a lightweight HR-style admin tool supporting employee lifecycle operations with a focus on clean architecture, data validation, and real-world behaviors such as soft deletion and unique constraints.
 
+## Live Link - https://employee-management-system-frontend-khaki.vercel.app/
+
 ---
 
 ## 🚀 Features
