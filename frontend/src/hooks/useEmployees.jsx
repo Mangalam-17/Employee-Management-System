@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo, useCallback } from "react";
-import { fetchEmployees } from "../services/employeeService";
+import { fetchEmployees } from "../services/EmployeeService";
 
 export const useEmployees = (query = {}) => {
   const [employees, setEmployees] = useState([]);
