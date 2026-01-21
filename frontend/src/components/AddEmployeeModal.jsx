@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createEmployee } from "../services/employeeService";
+import { createEmployee } from "../services/EmployeeService";
 
 export default function AddEmployeeModal({ onClose, onSuccess }) {
   const [form, setForm] = useState({

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { deleteEmployee } from "../services/employeeService";
+import { deleteEmployee } from "../services/EmployeeService";
 
 export default function DeleteConfirmModal({ employee, onClose, onSuccess }) {
   const [loading, setLoading] = useState(false);
@@ -9,8 +9,8 @@ export default function DeleteConfirmModal({ employee, onClose, onSuccess }) {
 
     try {
       await deleteEmployee(employee._id);
-      onSuccess(); 
-      onClose(); 
+      onSuccess();
+      onClose();
     } catch (err) {
       console.error(err);
     } finally {
